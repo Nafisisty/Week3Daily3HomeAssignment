@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayUserDetails">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="6"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/imageViewId"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:scaleType="fitXY"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/nameTextViewId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                android:fontFamily="cursive"
+                android:textAlignment="center"
+                />
+
+            <TextView
+                android:id="@+id/genderTextViewId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                android:fontFamily="cursive"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/ageTextViewId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                android:fontFamily="cursive"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/dobTextViewId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                android:fontFamily="cursive"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/emailTextViewId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                android:fontFamily="cursive"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/locationTextViewId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                android:fontFamily="cursive"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/phoneTextViewId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                android:fontFamily="cursive"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/cellTextViewId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                android:fontFamily="cursive"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/natTextViewId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                android:fontFamily="cursive"
+                android:textAlignment="center"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
